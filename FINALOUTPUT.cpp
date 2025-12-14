@@ -41,7 +41,9 @@ int main() {
     do{
 	cout << "=============================Dispatch Decision Engine=============================" << endl;
 	cout << "By: Mark Angelo C. Panis, Benedict Ronald D. Eborde, Romeo Alejandro P. Valenciano" << endl;
-	cout << "Enjoy" << endl;
+	cout << "Total of 15 Answerable Options." << endl;
+	cout << "Angelo = 6, Benedict = 5, Romeo = 5" << endl;
+	cout << "Enjoy!!" << endl;
 	cout << "==================================================================================" << endl;
 	cout << "\n======You can either choose an episode or just a Playthrough======" << endl;
 	cout << "[1]. Introduction" << endl;
@@ -124,7 +126,7 @@ void theIntro() {
 	int choice;
 
 
-	cout <<  "\n==========THE INTRO==========" << endl;
+	cout <<  "\n==========THE INTRO==========" << endl; // Benedict Eborde
 	typewrite("\nRobert: Obviously, I love him. He's my dad.");
 	typewrite("\nSoothing Goon: Hmm...");
 	typewrite("\nRobert: What does that hmm mean? just say what you wanna say?");
@@ -161,6 +163,7 @@ void theIntro() {
 	else {
 		cout << "Invalid Choice";
 	}
+	// Angelo Panis
 	typewrite("\nRobert: Just so, sensitive");
 	typewrite("\nListen, if i didn't love him, we wouldn't be here, right?");
 	typewrite("\nSoothing Goon: We don't have to get into it");
@@ -201,7 +204,7 @@ void theIntro() {
 }
 
 
-void scene_interogation() {
+void scene_interogation() { // Angelo Panis
 	int choice;
 
 	cout << "\n=====Scene 1: The Moral Crossroads: Apartment Interrogation=====" << endl;
@@ -235,12 +238,114 @@ void scene_interogation() {
 }
 
 
-void scene_street_fight() {
+void scene_street_fight() { 
     int choice;
     
-    cout << "\n=============Scene 2: Street Fight=============" << endl;
+    cout << "\n=============Scene 2: Street Fight=============" << endl;  
     cout << "\nThieves Fight Punch vs Left vs right hand punch" << endl;
     cout << "\n===============================================" << endl;
+    typewrite("\nNews Anchor: Earlier today, Mecha man broke  his silence and adressed the media..."); //Romeo Valenciano
+    typewrite("\nMecha man: There's been a lot of speculation about my health and the state of  the mecha man suit, and I'm here to put that speculation to rest");
+    typewrite("\nThe suit has been damaged beyond my ability to repair, so i will be stepping back from superhero work..effective immedietly");
+    typewrite("\n*People Asked Questions*");
+    typewrite("\nOne at a time please");
+    typewrite("\nAshley Rhiness: Do you have anything to say to your fans? The public outpouring. The vigils. A lot of them were worried you wouldn't wake up");
+    cout << "\n1. Thank you";
+    cout << "\n2. I did my best";
+    cout << "\n3. It was all  for you";
+    cout << "\nChoice: ";
+    cin >>  choice;
+    
+    if (choice == 1){
+        typewrite("\nMecha man: I just want to say, Thank you for the support. I hope to be worthy of it");
+        
+    }
+    
+    else if (choice == 2){
+        typewrite("\nMecha man: I suppose i want them to know i did my best, I worked as long as i could as hard as i could and that's all anyone can do.");
+        
+    }
+    
+    else if (choice  == 3){
+        typewrite("\nMecha man: Everything i've done, every sacrifice me and my family have made has been for the people of Los Angeles");
+        
+    }
+    
+    else {
+        cout << "Invalid choice" << endl;
+    }
+    
+    typewrite("\nNext Question.");
+    typewrite("\nChris Stratton: Does this mean your retiring as Mecha man? Word on the street is you're donezo."); // Romeo Valenciano
+    typewrite("\nMecha man: Are you a hundred years old? Why're you talking like that?");
+    typewrite("\nChris: Answer the question, buddy boy. Are you retiring? My readers need the skinny and i aim to deliver. Let's get it into the record");
+    cout << "\n1. No comment";
+    cout << "\n2. Pretty much";
+    cout << "\n3. Not yet";
+    cout << "\nChoice: ";
+    cin >> choice;
+    
+    if (choice == 1){
+        typewrite("\nMecha man: I'm not looking to commment on that just yet. That's the only skinny i can give you");
+        
+    }
+    
+    else if (choice == 2){
+        typewrite("\nMehca man: Well, I don't have a suit, and i don't have any superpowers so yeah, short of a miracle...pretty much");
+        typewrite("\nChris: Is pretty muchc the same as definitively?");
+        typewrite("\nMecha man: Pretty much is the same as pretty much, buddy boy.");
+        
+    }
+    
+    else if (choice == 3){
+        typewrite("\nMecha man: Look, I'm not retiring. Not yet at least");
+        typewrite("\nChris: Any idea what you can do without the Mecha man suit?");
+        typewrite("\nMecha man: Not yet.");
+        
+    }
+    
+    else {
+        cout << "Invalid choice" << endl;
+    }
+    
+    typewrite("\nAlright, just one more please, I gotta get back to uh, just, just one more. Preferably someone from this century");
+    //  Romeo Valenciano
+    typewrite("\nCharles Kingsley: So. Shroud kills your father, goes to jail fifteen years, breaks out and immedietly dupes you into a trap");
+    typewrite("\nwhere he destroys the Mecha man suit and puts you in a coma for months");
+    typewrite("\nMecha man: I didn't hear a question in there.");
+    typewrite("\nCharles: Two parter. First, why didn't Shroud kill you? You haven't been conscious for months, it'd be easy money taking you out");
+    typewrite("\nMehca man: Ok, Shroud wanted  the Astral Pulse and Mecha man gone. He got both, I'm not sure i mattered much");
+    typewrite("\nCharles: Right. You're unimportant. Which leads me to my next question. Most heroes avenge their family. You did the opposite");
+    typewrite("\nyou killed their legacy. How dissapointed would your dad be if he were here right now? Your father, your grandfather, they must be rolling over in their graves.");
+    cout << "\n1. Leave";
+    cout << "\n2. Answer";
+    cout << "\n3. Attack";
+    cout << "\nChoice: ";
+    cin >> choice;
+    
+    if (choice == 1){
+        typewrite("\n*Mecha man Left*");
+        
+    }
+    
+    else if (choice == 2){
+        typewrite("\nMecha man: I think he'd be proud... cause i'm alive, which, as you so sensitively pointed out, he isn't");
+        typewrite("\ni think he knows that i sacrificed everything.. and that i did my best..Being mecham man.. protecting my community, was the greated honor i'll ever have...");
+        typewrite("\nnow i have to live knowing that. Thank you for coming");
+        
+    }
+    
+    else if (choice == 3){
+        typewrite("\n*Mecha man attacks charles and stomped on him*");
+        cout << "+Intimidation Factor";
+        typewrite("\nCharles on TV: Do i want to  sue? Of course? But there's two issues there, He clearly has nothing left and he was wearing a mask so..");
+        typewrite("\nHow do you feel about the crowd seemingly encouraging him? It did explain why after the first 3-4 minutes no one was stepping in, yes. I was dissapointed with the chanting");
+    }
+    
+    else{
+        cout << "Invalid chooice" << endl;
+    }
+    // Benedict Eborde
     typewrite("\nNews Anchor: Up Next, is Mecha Man a Mecha quitter?");
     typewrite("\nPerson: Yeah, I mean, it seems like it'd be better if he died than be a mecha coward, you know");
     typewrite("\nWhat kind of example is he setting?");
@@ -268,7 +373,8 @@ void scene_street_fight() {
     else {
         cout << "Invalid Input";
     }
-    typewrite("\nRed Mask: Hey! who're you callin' assholes, asshole?!");
+    // Angelo Panis
+    typewrite("\nRed Mask: Hey! who're you callin' assholes, asshole?!"); 
     typewrite("\nOrange Mask: I'll handle this idiot. Keep loading. We're out of here in thirty");
     typewrite("\n...and who tf are you? Yeah you. Go go fuckin' hobo ranger. Who tf are you?");
     cout << "\n1. Someone with nothing to lose.";
@@ -296,7 +402,7 @@ void scene_street_fight() {
         cout << "Invalid Input";
         
     }
-    
+    // Benedict Eborde
     typewrite("\nMecha man: Whatever the case, I'm enough to deal with a pack of fuckin' skittles idiot like you");
     typewrite("\nOrange mask: goddamnit... Look, you're hurt, you're not thinkin' straight");
     typewrite("\nYou don't wanna fight someone who knows which hand every punch is coming from--");
@@ -321,14 +427,56 @@ void scene_street_fight() {
         cout << "Invalid choice";
     }
     
+    typewrite("\n*You still got beaten up*");
+    typewrite("\n*Blonde Blazer to the rescue*");
+    typewrite("\nBlonde Blazer: That guy i threw.. he landed on the roof, right?");
+    typewrite("\nGuy: All good!");
+    typewrite("\nBlonde: Phew. Hi, I'm blonde blazer. I work over at superhero Dispatch Network");
+    typewrite("\nMecha man: Hey, hi yeah. I know who you are. You're like famous");
+    typewrite("\nBlonde: Oh. Uh, i don't know about that, i'm just a corporate hero for hire. You're the real deal. You're the famous one");
+    typewrite("\nMecha: Right.. I don't think infamous is the same as famous but--");
+    typewrite("\nBlonde: Oh gosh, your arm");
+    typewrite("\nMecha: Ahh fuck, Hmm? Oh. Yeah, that's gross");
+    typewrite("\nBlonde: You look like some kinda mime DJ. Let me see  it, I'll help you");
+    cout << "\n1. Have you done this before?";
+    cout << "\n2. I'd prefer a professional";
+    cout << "\n3. I can do it myself";
+    cout << "\nChoice: ";
+    cin >> choice;
+    
+    typewrite("\nIt usually dislocates the other way");
+    
+    if (choice == 1){
+        typewrite("\nMecha: Okay, but have you done this before? Cause mmaybe--Owwwww, wow-ay. WOW, that's, that's okay. Thank you");
+        
+    }
+    
+    else if (choice == 2){
+        typewrite("\nMecha: No offense, but i'd prefer a medical professional to do i--uooowwwhhokayyy...uhh. thats, uh, thats okay");
+        
+    }
+    
+    else if (choice == 3){
+        typewrite("\nMecha: It's fine. No, no its fine don't worry. I can do it myse-- fuckk yeah, that's okay. okay ohh yeah, thank you");
+        
+    }
+    else {
+        cout << "Invalid choice" << endl;
+    }
+    cout << "\n*Police came*" << endl;
+    typewrite("\nBlonde: One of them is on that roof");
+    typewrite("\nHey, you look like you could use a drink");
+    typewrite("\nMecha: What makes you say that?");
+    
+    
     cout << "\nDon't worry, You've been save by Blonde Blazer(by a girl)" << endl;
     cout << "===================================================\n" << endl;
 }
 
-void scene_bar_flambae(){
+void scene_bar_flambae(){ // Angelo Panis and Romeo Alejandro
     int choice;
     
-    cout << "\n====================Scene 3: The Superhero Bar Scene====================" << endl;
+    cout << "\n====================Scene 3: The Superhero Bar Scene====================" << endl; 
     cout << "*Blonde blazer got spit by alcohol by Mecha Man and will bre right back*" << endl;
     cout << "========================================================================" << endl;
     typewrite("\nMecha man: What're you doing?");
@@ -368,8 +516,8 @@ void scene_bar_flambae(){
     else {
         cout << "Invalid Input" << endl;
     }
-    
-    typewrite("\nFlambe: You Good?");
+    // Angelo Panis
+    typewrite("\nFlambe: You Good?"); 
     typewrite("\nPerson: Sorry, I choked on my spit");
     typewrite("\nNo, Mecha Bitch. I control the fire--");
     typewrite("\nMecha man: The fire?");
@@ -404,14 +552,14 @@ void scene_bar_flambae(){
     
 }
 
-void scene_billboard() {
+void scene_billboard() { // Benedict Eborde
     int choice;
     
     cout << "\n=============Scene 4: Romance Route: Billboard Scene=============" << endl;
     cout << "\n=*Mecha Man & Blonde blazer flew up to the billboard & drinking*=" << endl;
     cout << "\n=================================================================" << endl;
     
-    typewrite("\nRobert: I actually thought you were taking us to sit on it");
+    typewrite("\nRobert: I actually thought you were taking us to sit on it"); 
     typewrite("\nBlonde blazer: Hmm! Oh yeah, that woulda been cool ");
     typewrite("\nBut, no, yeah, this, this is better cause you can see it(HOLLYWOOD).. and it looks like there's a couple up there already so.");
     cout << "\n1. I really needed this.";
@@ -442,7 +590,8 @@ void scene_billboard() {
         cout << "Invalid Input" << endl;
     }
     
-    typewrite("\nBlonde: Don't you worry about it Robert Roberson");
+    // Angelo Panis
+    typewrite("\nBlonde: Don't you worry about it Robert Roberson"); 
     typewrite("\nRobert: How do you know my name?");
     typewrite("\nBlonde: Whoops!");
     typewrite("\nRobert: What's going on?");
@@ -461,7 +610,7 @@ void scene_billboard() {
     typewrite("\nwhich i guess, i don't have to worry about anymore......What is it?");
     typewrite("\nBlonde: I'm not quite drunk enough to share my origin story just yet..but, remind me to tell you someday");
     typewrite("\nRobert: Definitely");
-    cout << "\n*Blonde blazer touched and glazed robert' face*" << endl;
+    cout << "\n*Blonde blazer touched and glazed robert' face*" << endl; 
     typewrite("\nBlonde: We can work with this");
     cout << "\n1. Kiss her";
     cout << "\n2. Let the moment pass";
@@ -498,7 +647,7 @@ void scene_billboard() {
     
 }
 
-void scene_combat_toxic() {
+void scene_combat_toxic() { // Benedict Eborde
     int choice;
     
     cout << "\n============Scene 4: Character Reflection: Combat Decision=============" << endl;
@@ -506,7 +655,7 @@ void scene_combat_toxic() {
     cout << "\n=======================================================================" << endl;
     
     
-    cout << "\n*Robert went to the location where soothing goon told him*" << endl;
+    cout << "\n*Robert went to the location where soothing goon told him*" << endl; 
     cout << "\n1. Prepare to die";
     cout << "\n2. It's over, Shroud";
     cout << "\n3. I'm here to fuck you up";
@@ -535,7 +684,7 @@ void scene_combat_toxic() {
     else {
         cout << "Invalid choice" << endl;
     }
-    
+    // Angelo Panis
         typewrite("\nAll this buildup. Face to face with your father's killer and you come in here with that lame shit?");
         typewrite("\nMecha man: Ugh. Where the fuck is shroud?");
         typewrite("\nSoothing goon: He'll be here in a bit. Oh, hey, after our conversation, I asked him about dad. Fun little tidbit, he was very well hydrated");
@@ -569,7 +718,7 @@ void scene_combat_toxic() {
         cout << "\n===================================================================" << endl;
 }
 
-void epilogue_summary(){
+void epilogue_summary(){  // Angelo Panis & Benedict Eborde
     cout << "\n===================================" << endl;
     cout << "\n= E P I L O G U E   S U M M A R Y =" << endl;
     cout << "\n===================================" << endl;
@@ -602,6 +751,8 @@ void epilogue_summary(){
 
     cout << "\nRobert's Pivot begins — from hero to dispatcher.\n";
 }
+
+
 
 
 
