@@ -74,6 +74,8 @@ theIntro()
 // Decision Path: There is an option there: "1. I didn't know him well | 2. I love my dad | 3. He's gone", the player can choose between those 3 options and that option is how Robert feels about his father. 
 For each option, the dialogue tone changes but not the state of the game. 
 
+![Choice 1](<img width="977" height="749" alt="CHOICE 1" src="https://github.com/user-attachments/assets/d7beb4ef-3b7c-4196-8c8f-046b008f7ba8" />)
+
 
 
 scene_interogation() 
