@@ -39,10 +39,10 @@ int main() {
     char again;
     
     do{
-	cout << "=====================Dispatch Decision Engine=====================" << endl;
-	cout << "By: Mark Angelo C. Panis" << endl;
+	cout << "=============================Dispatch Decision Engine=============================" << endl;
+	cout << "By: Mark Angelo C. Panis, Benedict Ronald D. Eborde, Romeo Alejandro P. Valenciano" << endl;
 	cout << "Enjoy" << endl;
-	cout << "==================================================================" << endl;
+	cout << "==================================================================================" << endl;
 	cout << "\n======You can either choose an episode or just a Playthrough======" << endl;
 	cout << "[1]. Introduction" << endl;
 	cout << "[2]. Interogation Scene" << endl;
