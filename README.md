@@ -67,6 +67,12 @@ typewrite(string text, int speed)
 
 
 
+main() 
+
+// Function of the code and Decision Path: The code acts as the control program/ control hub and menu. 
+main() allows players to choose their desired individual scenes or they can choose the full playthrough. 
+
+
 theIntro() 
 
 // Function of the code: This code is the introduction of the novel where it highlights Robert's background and his relationship with his father. 
@@ -74,7 +80,8 @@ theIntro()
 // Decision Path: There is an option there: "1. I didn't know him well | 2. I love my dad | 3. He's gone", the player can choose between those 3 options and that option is how Robert feels about his father. 
 For each option, the dialogue tone changes but not the state of the game. 
 
-![Choice 1](CHOICE 1.png)
+![Choice 1](CHOICE%201.png)
+
 
 
 
@@ -87,7 +94,7 @@ This influences Robert's ethical direction.
 // Decision Path:  If the goon is pulled up, the variable "bool isMerciful" becomes true which increases the integer/rating "int Robert_Mercy_Rating". 
 If goon is not pulled up and the player lets him drop instead, "bool isMerciful" becomes false. 
 
-
+![Choice 2](CHOICE%202.png)
 
 scene_street_fight() 
 
@@ -96,6 +103,7 @@ scene_street_fight()
 // Decision path: While in combat, if the player punches left, the character succeeds, if the player punches right, injury will occur (This is where isRobertInjured comes in to play).
 The dialogue choices also shape the personality but does not affect any variables. 
 
+![Choice 3](CHOICE%203.png)
 
 
 scene_bar_flambae() 
@@ -104,7 +112,7 @@ scene_bar_flambae()
 
 // Decision Path: If the player uses water, the impression score will increase slightly, If the player however uses alcohol it would significantly increase the score more. 
 
-
+![Choice 4](CHOICE%204.png)
 
 
 scene_billboard() 
@@ -115,6 +123,7 @@ scene_billboard()
 If the moment was passed however, the romantic tension will be inactive. 
 
 
+![Choice 5](CHOICE%205.png)
 
 scene_combat_toxic() 
 
@@ -123,6 +132,7 @@ It emphasizes Robert's personality through the dialogues and the combat tone. Th
 
 // Decision Path: This final action reflects the temperament of Robert, it also sumarizes the intentions of the player. 
 
+![Choice 6](CHOICE%206.png)
 
 
 epilogue_summary() 
@@ -131,10 +141,9 @@ epilogue_summary()
 It also acts as the ending of the story.
 
 
-main() 
+OVERALL PLAYTHROUGH FLOWCHART
+![Choice 7](CHOICE%207.png)
 
-// Function of the code and Decision Path: The code acts as the control program/ control hub and menu. 
-main() allows players to choose their desired individual scenes or they can choose the full playthrough. 
 
 
 
